@@ -4,15 +4,20 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Hi, I'm Edison - a builder, dog pawrent and keep-fit-fanatic-wannabe.
 
 
-[jekyll-organization]: https://github.com/jekyll
+I'm the Co-founder & CEO at [Suberra](https://suberra.io) - a new payments
+infrastructure designed to help people transact easier on Web 3.0.
+We are building important primitives to allow people to pay easily
+online for commerce, subscriptions and any pull-based payments in
+general.
+
+Previously, I was an Engineering Lead at Zilliqa, a decentralized
+blockchain platform. While I was there, I led a team to build
+developer toolings, launched the mainnet in 2019 and built various
+projects within the team. One of the projects was to build [HG Exchange](https://hg.exchange), a private equities exchange. My role was to help with Technical development, implementation of security policies, and correspondence with MAS Central Bank for CMS License. The exchange was later [acquired by Binance](https://www.binance.com/en/blog/ecosystem/binance-asia-services-takes-strategic-stake-in-singaporebased-hg-exchangehgx-421499824684903142). 
+
+
+I'm interested in DeFi and Payments space, and have a strong interest in systems security. I hold a M.Sc from Carnegie Mellon University, and a B.Sc from Singapore Management University (Summa Cum Laude).

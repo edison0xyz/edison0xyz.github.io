@@ -7,7 +7,7 @@ permalink: /about/
 
 Hi, I'm Edison - a builder, dog pawrent and keep-fit-fanatic-wannabe.
 
-I'm the Co-founder & CEO at [Suberra](https://suberra.io) - a new payments
+I'm the Co-founder & CEO at [Suberra](https://suberra.com) - a new payments
 infrastructure designed to help people transact easier on Web 3.0.
 We are building important primitives to allow people to pay easily
 online for commerce, subscriptions and any pull-based payments in
@@ -24,4 +24,6 @@ I'm interested in DeFi and Payments space, and have a strong interest in systems
 Links:
 * [Twitter](https://twitter.com/edison0xyz)
 * [Linkedin](https://www.linkedin.com/in/edisonljh/)
-* [Github](https://github.com/edison0x)
+* [Github](https://github.com/edison0xyz)
+* [Telegram](https://t.me/edison0xyz)
+* Farcaster: edison

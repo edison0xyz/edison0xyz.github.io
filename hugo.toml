@@ -41,7 +41,7 @@ ignoreErrors = ["error-disable-taxonomy"]
   title = "Edison"
 
   # This theme will, by default, inject a made-with-line at the bottom of the page.
-  # You can turn it off, but we would really appreciate if you don’t :-).
+  # You can turn it off, but we would really appreciate if you don't :-).
   # hideMadeWithLine = true
 
   # By default, this theme displays dates with a format like "02 Jan, 2006", but
@@ -50,3 +50,12 @@ ignoreErrors = ["error-disable-taxonomy"]
   # for details. An example TOML config that uses [ISO
   # 8601](https://en.wikipedia.org/wiki/ISO_8601) format:
   # dateFormat = "2006-01-02"
+
+# Configure syntax highlighting
+# For options see https://gohugo.io/content-management/syntax-highlighting/
+[markup.highlight]
+  # Choose a built-in Chroma style name (e.g., "github", "monokai", "dracula")
+  # See https://xyproto.github.io/splash/docs/longer/all.html
+  style = "github"
+  # Use inline styles instead of CSS classes
+  noClasses = true

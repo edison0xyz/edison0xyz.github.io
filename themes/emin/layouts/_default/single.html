@@ -1,0 +1,17 @@
+{{ define "main" }}
+    <article>
+        <h2>{{ .Title }}</h2>
+        <small>Published on {{ .Date.Format "January 2, 2006" }}</small>
+        {{ with .Params.categories }}
+            <small>Categories: 
+                {{ range . }}
+                    <a href="{{ "/categories/" | relURL }}{{ . | urlize }}">{{ . }}</a> 
+                {{ end }}
+            </small>
+        {{ end }}
+        
+        <div>
+            {{ .Content }}
+        </div>
+    </article>
+{{ end }} 

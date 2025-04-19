@@ -1,0 +1,25 @@
+{{ define "main" }}
+    <h2>{{ .Title }}</h2>
+
+    {{ if .Content }}
+        <div>{{ .Content }}</div>
+    {{ end }}
+
+    <ul>
+        {{ range .Paginator.Pages }}
+            <li>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                <div>{{ .Summary }}</div>
+                <small>Published on {{ .Date.Format "January 2, 2006" }}</small>
+                {{ with .Params.categories }}
+                    <small>Categories: 
+                        {{ range . }}
+                            <a href="{{ "/categories/" | relURL }}{{ . | urlize }}">{{ . }}</a> 
+                        {{ end }}
+                    </small>
+                {{ end }}
+            </li>
+        {{ end }}
+    </ul>
+    {{ template "_internal/pagination.html" . }}
+{{ end }} 

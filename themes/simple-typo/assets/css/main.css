@@ -1,15 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@font-face {
+  font-family: 'Commit Mono';
+  src: url('../fonts/commitmono-700-regular.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  font-size: 150%;
+}
 body {
   color: #222;
-  font-family: sans-serif;
+  font-family: 'EB Garamond', serif;
   line-height: 1.5;
   margin: 1rem auto;
   max-width: 800px;
 }
 
 header {
-  border-bottom: 1px solid #222;
+  border-bottom: 2px solid #222;
   margin-bottom: 1rem;
-  text-align: center;
+  text-align: left;
 }
 
 /* Center the navigation */
@@ -39,4 +52,31 @@ footer {
 a {
   color: #00e;
   text-decoration: none;
+}
+
+.post-item {
+  margin-bottom: 2rem;
+}
+
+.post-date {
+  color: #666;
+  font-size: 0.9rem;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+/* Style for post titles on single post pages */
+.post-title {
+  font-weight: 600;
+  font-style: italic;
+  /* Ensures EB Garamond SemiBold 600 Italic is applied */
+  font-family: 'EB Garamond', serif;
+}
+
+/* Commit Mono title style */
+.mono-title {
+  font-family: 'Commit Mono', monospace;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.2;
 }

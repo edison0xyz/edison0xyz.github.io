@@ -6,7 +6,7 @@ baseURL = "https://edison0xyz.github.io"
 theme = 'simple-typo'
 
 # Basic metadata configuration for your blog.
-title = "Edison's Blog"
+title = "/u/edison" 
 author = "Edison"
 copyright = "Copyright © 2025, Edison."
 languageCode = "en-US"

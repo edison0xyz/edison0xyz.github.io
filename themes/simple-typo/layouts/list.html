@@ -1,8 +1,11 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
   {{ .Content }}
-  {{ range .Pages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
+  {{ range .Pages.ByDate.Reverse }}
+    <div class="post-item">
+      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+      <div class="post-date">{{ .Date.Format "January 2, 2006" }}</div>
+      {{ .Summary }}
+    </div>
   {{ end }}
 {{ end }}

@@ -1,7 +1,15 @@
 {{ define "main" }}
   {{ .Content }}
+
+  <h2>My writings</h2>
   {{ range site.RegularPages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
+
+  <ul>
+    {{ .Date.Format "2006-01-02" }}
+    <span class="date-title-separator" style="margin: 0 1rem;"></span>
+    <a href="{{ .RelPermalink }}"> {{ .LinkTitle }} </a>
+  </ul>
+
+
   {{ end }}
 {{ end }}

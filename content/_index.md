@@ -1,15 +1,20 @@
-hi, i am edison.
+Hey, I am Edison Lim.
 
-i am the co-founder of [basedapp](https://basedapp.io). basedapp lets people spend crypto directly without having to off-ramp into a bank account, saving users lots of money in fees and headaches. i have spent the last three years working on crypto payments, first as a payment gateway and now as a card issuer. this is my [plan](https://x.com/edison0xyz/status/1811364931368833447) to fix it.
+I am a programmer and entrepreneur based in Singapore.
 
-before starting my companies, i did the following:
-* engineering lead for zilliqa from 2018 to 2021, where i worked on systems engineering and did dev rel briefly to teach people to write smart contract code in an ocaml-like  programming language
-* built custodian software from scratch, which helped a private equities exchange get their capital markets services (CMS) license from Monetary Authority of Singapore (MAS)
-* did data engineering pipelines for a year for ML researchers to do biomedical research (alright this is actually fun)
+I am the co-founder of [BasedApp](https://basedapp.io). *BasedApp* lets people spend crypto directly without having to off-ramp into a bank account, saving users lots of money in fees and headaches. I have spent the last three years working on crypto payments, first as a payment gateway and now as a card issuer. I've shared my learnings on [why crypto payments are hard to fix](https://x.com/edison0xyz/status/1811364931368833447).
 
-Other than engineering and building startups, i like to build (unprofitable) trading strategies. Sometimes you earn, sometimes you learn. I'm always learning.
+Outside of main hustle, I have interests in:
+* Exploring market structures and price discovery in crypto, which I sometimes develop (unprofitable) trading strategies;
+* Tinkering with AI tools and models;
+* Vibe-coding (latest obssession)
 
-I studied computing at Carnegie Mellon University - which also opened my eyes to the amazing world of crypto which I have not looked back on ever since.
+Before starting my own Company, I was:
+* Engineering lead for zilliqa from 2018 to 2021, where i worked on systems engineering and did dev rel briefly to teach people to write smart contract code
+* Tech lead for ![Alta Exchange](https://alta.exchange/), where I led a team to build OTC platform and custodian software to secure Capital Markets Services license from MAS.
+* Built data pipelines for ML researchers at CMU under the leadership of Andrew Moore
+  
+I completed my M.Sc at Carnegie Mellon University where I specialised in distributed systems security. I am also an alumni at Singapore Management University.
 
 My socials:
 * [Twitter](https://x.com/edison0xyz)

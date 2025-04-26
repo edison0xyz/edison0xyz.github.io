@@ -1,6 +1,6 @@
 # Base URL used when generating links to your pages
 # Set to the URL for your site
-baseURL = "https://edison0xyz.github.io"
+baseURL = "edison0xyz.com"
 
 # The name of this wonderful theme ;-).
 theme = 'simple-typo'
@@ -14,6 +14,11 @@ languageCode = "en-US"
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true
 
+# Theme configuration
+[markup]
+  [markup.highlight]
+    style = 'github'
+    lineNos = true
 
 [menus]
   [[menus.main]]
@@ -34,3 +39,4 @@ enableRobotsTXT = true
   [module.hugoVersion]
     extended = false
     min = '0.146.0'
+

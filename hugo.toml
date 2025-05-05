@@ -19,6 +19,12 @@ enableRobotsTXT = true
   [markup.highlight]
     style = 'github'
     lineNos = true
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  
+  # Ignore HTML warnings
+  ignoreLogs = ['warning-goldmark-raw-html']
 
 [menus]
   [[menus.main]]
@@ -35,6 +41,11 @@ enableRobotsTXT = true
     name = 'Tags'
     pageRef = '/tags'
     weight = 30
+    
+  [[menus.main]]
+    name = 'Resume'
+    url = '/resume'
+    weight = 40
 
 [module]
   [module.hugoVersion]
